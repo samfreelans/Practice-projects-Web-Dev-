@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing:border-box;
+
+}
+
+body{
+    background: rgb(43, 43, 43);
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+}
+
+
+
+
+/* Utility classes */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.hero-banner{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(Image/4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.primary-btn{
+    font-size: 1rem;
+    padding: 7px 17px;
+    color: white;
+    border-radius: 3px;
+    background-color:#e50914;
+}
+
+.secondary-btn{
+    padding: 7px 17px;
+    border: 2px solid white ;
+    border-radius: 3px;
+    color: white;
+
+    background-color: transparent;
+}
+
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+
+}
+
+/* NAVIGATION SECTION */
+
+
+
+.main-nav{
+    justify-content: space-between;
+}
+
+.netflix-logo img{
+    width: 200px;
+    
+}
+
+.nav-btn{
+    flex-basis: 730px;
+    justify-content: end;
+    gap: 40px;
+
+
+}
+
+/* HEADER-CONTENT */
+
+.header-content{
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+    gap: 30px;
+
+}
+
+.header-content h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    max-width: 650px;
+    text-align: center;
+
+}
+
+
+.header-content h3{
+    font-weight:400;
+    margin-bottom: 20px;
+    font-size: 1.625rem;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+}
+/* 
+.header-content p{
+    
+
+} */
+
+.email-signup{
+    background: #fff;
+    border-radius: px;
+    overflow: hidden;
+
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 5px;
+    padding: 15px 20px;
+    width: 400px;
+    font-size: 22px;
+   
+    
+
+}
+
+.emailbtn{
+    
+    padding:15px ;
+    border-radius: 0;
+    font-size: 22px;
+
+
+}
+
+/* FEATURE SECTION */
+
+.feature-section{
+    padding: 20px 60px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.feature-image img{
+    width: 600px;
+
+
+
+
+}
+
+
+.feature-disc h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+.feature-disc h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+
+/*---------------------------------- FAQ SECTION-----------------------------------------------*/
+
+.faq-section{
+    background: black;
+    margin-top: 10px;
+
+}
+
+.faq-section h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3.125rem;
+
+
+ 
+}
+
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+
+
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+
+}
+
+input[type="radio"]{
+    display: none;
+
+}
+
+.accordian .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+
+
+}
+
+
+
+/* ------------------down email-signup-------------------------------------------------------- */
+
+
+.news-letter-section{
+    background: black;
+
+
+}
+
+.news-letter{
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        padding-bottom: 70px;
+        gap: 30px;
+    
+
+}
+
+/* --------------------------------FOOTER--------------------------------- */
+
+
+.footer{
+    background: black;
+    margin-top: 10px;
+    padding: 20px 70px ;
+
+
+
+}
+
+.footer-container{
+    padding: 30px ;
+    margin-left: 70px;
+}
+
+.footer-container p{
+    text-align: left;
+    padding: 40px 0;
+    color: #757575;
+}
+
+.links-container{
+    align-items: flex-start;
+    gap: 90px;
+
+
+
+}
+.footer-links{
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 20px;
+    
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-link{
+    color: #757575;
+}
+
+
+.footer-btn{
+    margin-top: 30px;
+    border: 2px solid #757575;
+    color: #757575;
+}
